@@ -1,0 +1,284 @@
+/* Task Heading */
+.title-task {
+    color: blueviolet;
+}
+
+/* Zomato card */
+.card-1 {
+    width: 380px;
+    background-color: white;
+    border: 1px solid lightgray;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.img-card1 {
+    position: relative;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    height: 270px;
+}
+
+.img-food {
+    position: absolute;
+    border: 1px solid lightgray;
+    width: 360px;
+    height: 270px;
+    border-radius: 8px;
+}
+
+.promotion {
+    position: absolute;
+    width: 52px;
+    top: 0;
+    left: 0;
+    background-color: black;
+    padding: 5px;
+    color: white;
+    opacity: 40%;
+    margin: 10px;
+    font-size: 12px;
+    border-radius: 6px;
+}
+
+.time-delivery {
+    position: absolute;
+    width: 40px;
+    bottom: 0;
+    right: 0;
+    background-color: whitesmoke;
+    padding: 4px;
+    font-weight: 600;
+    color: black;
+    margin: 10px;
+    font-size: 12px;
+    border-radius: 6px;
+}
+
+.offer-pct {
+    position: absolute;
+    width: 105px;
+    bottom: 10px;
+    left: 0;
+    background-color: rgb(98, 98, 215);
+    padding: 4px;
+    font-weight: 600;
+    color: white;
+    font-size: 12px;
+}
+
+.food-title {
+    margin-top: 8px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.cusine {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: grey;
+    font-weight: 600;
+}
+
+.footer-note {
+    display: flex;
+    flex-direction: row;
+}
+
+.safety-card {
+    background-color: rgb(3, 78, 3);
+    text-align: center;
+    border-radius: 8px;
+    margin: 5px 0px;
+    width: 90px;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.safety-note {
+    padding: 2px 8px;
+    color: grey;
+}
+
+.max-safety {
+    background-color: rgb(235, 164, 71);
+    font-weight: 900;
+    border-radius: 4px;
+}
+
+.delivery {
+    color: white;
+}
+
+/* Explore Task */
+.explore {
+    margin: 10px auto;
+    width: 920px;
+    position: relative;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+.explore-img {
+    width: 100%;
+    height: 500px;
+    border-radius: 14px;
+}
+
+.title-explore {
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    top: 170px;
+    left: 180px;
+}
+
+.title-desc {
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    top: 240px;
+    left: 10px;
+    font-size: 16px;
+}
+
+.btn-explore {
+    top: 300px;
+    left: 400px;
+    position: absolute;
+    background-color: white;
+    border-radius: 14px;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: none;
+}
+
+/* Zomato Search */
+.zomato-card {
+    position: relative;
+}
+
+.zomato-img {
+    width: 100%;
+    height: 500px;
+    opacity: 70%;
+    border-radius: 14px;
+}
+
+.title-zomato {
+    position: absolute;
+    top: 30%;
+    left: 42%;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.desc-zomato {
+    position: absolute;
+    top: 45%;
+    left: 28%;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.zomato-search-box {
+    position: absolute;
+    left: 30%;
+    top: 60%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 10px;
+    color: black;
+}
+
+.select-location {
+    display: flex;
+    flex-direction: row;
+}
+
+#place {
+    width: 200px;
+    height: 30px;
+    justify-content: center;
+    border-color: grey;
+    border-radius: 10px;
+}
+
+.pin-box {
+    padding: 3px;
+}
+
+.pin-class {
+    width: 20px;
+    height: 20px;
+}
+
+.inpt-box {
+    width: 300px;
+    padding: 5px;
+    border-radius: 8px;
+    border: 2px solid lightgray;
+}
+
+/* Profile */
+.profile-card {
+    width: 520px;
+    margin: 10px auto;
+    padding: 10px;
+    padding-bottom: 2px;
+    background-color: lightgray;
+}
+
+.profile-cont {
+    position: relative;
+}
+
+.banner-img {
+    width: 100%;
+    border-radius: 16px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.profile-img {
+    position: absolute;
+    bottom: 0;
+    left: 185px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: -55px;
+    border: 2px solid lightgray;
+}
+
+.profile-info {
+    width: 100%;
+}
+
+.profile-box {
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+
+.prof-name {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.prof-desc {
+    font-size: 25px;
+    font-weight: 500;
+    color: grey;
+}
